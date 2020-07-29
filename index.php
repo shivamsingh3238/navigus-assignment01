@@ -8,7 +8,7 @@
  </head>  
  <style>
      .banner-area{
-    background-image: url(Background.png);
+    background-image: url(Image/Background.png);
     background-position: center center;
     background-size: cover;
     height: 100vh;
