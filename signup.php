@@ -18,7 +18,7 @@ div#main {
     border-radius: 23px;
     /* border-style: inset; */
     background-color: white;
-    background-image: url(login.png);
+    background-image: url(Image/login.png);
     background-size: 101% 115px;
     background-repeat: no-repeat;
 	box-shadow: 0 0 15px 0 #494b4e;
