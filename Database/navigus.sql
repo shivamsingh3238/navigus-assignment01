@@ -1,9 +1,9 @@
--- phpMyAdmin SQL Dump  
+-- phpMyAdmin SQL Dump
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 28, 2020 at 09:38 PM
+-- Generation Time: Jul 30, 2020 at 10:51 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.2.31
 
@@ -44,8 +44,7 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`ID`, `name`, `username`, `email`, `password`, `image`, `logint`, `logoutt`, `Ttime`) VALUES
-(12, 'priya shivam', 'priya1234', 'priya.shivam_cs17@gla.ac.in', '12341234', 'upload/Screenshot_1.png', '00:00:00.000000', '00:00:00.000000', 0),
-(13, 'SCHOOL', 'shivaji007', 'shiva2m.singh_cs17@gla.ac.in', '1234', 'upload/Screenshot_2.png', '00:00:00.000000', '00:00:00.000000', 0);
+(19, 'SHIVAM SINGH', 'shivam123', 'shivam.singh_cs17@gla.ac.in', '12341234', 'upload/1.png', '00:00:00.000000', '00:00:00.000000', 0);
 
 -- --------------------------------------------------------
 
@@ -66,7 +65,7 @@ CREATE TABLE `timestamp` (
 --
 
 INSERT INTO `timestamp` (`ID`, `image`, `name`, `email`, `time`) VALUES
-(1, 'upload/Screenshot_1.png', 'priya shivam', 'priya.shivam_cs17@gla.ac.in', '08:07:42am');
+(35, 'upload/1.png', 'SHIVAM SINGH', 'shivam.singh_cs17@gla.ac.in', '10:08:45am');
 
 --
 -- Indexes for dumped tables
@@ -92,13 +91,13 @@ ALTER TABLE `timestamp`
 -- AUTO_INCREMENT for table `registration`
 --
 ALTER TABLE `registration`
-  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `timestamp`
 --
 ALTER TABLE `timestamp`
-  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
